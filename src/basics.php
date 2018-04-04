@@ -109,6 +109,7 @@ if (!function_exists('breakpoint')) {
             'psy/psysh must be installed and you must be in a CLI environment to use the breakpoint function',
             E_USER_WARNING
         );
+        die(1);
     }
 }
 
